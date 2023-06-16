@@ -1,0 +1,6 @@
+leaf-0: ./../../nats-server -p 4322 
+leaf-1: ./../../nats-server -p 4323 
+leaf-2: ./../../nats-server -p 4324 
+leaf-storage-0: go run ./../../cmd/leaf/leaf.go --nats-url=nats://localhost:4322
+leaf-storage-1: go run ./../../cmd/leaf/leaf.go --nats-url=nats://localhost:4323
+leaf-storage-2: go run ./../../cmd/leaf/leaf.go --nats-url=nats://localhost:4324

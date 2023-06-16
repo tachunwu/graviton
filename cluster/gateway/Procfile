@@ -1,0 +1,3 @@
+gateway-0: go run ./../cmd/gateway/gateway.go
+gateway-1: go run ./../cmd/gateway/gateway.go
+gateway-2: go run ./../cmd/gateway/gateway.go

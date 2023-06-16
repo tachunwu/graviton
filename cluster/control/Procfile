@@ -1,0 +1,1 @@
+control-plane: go run ./../cmd/control/control.go
